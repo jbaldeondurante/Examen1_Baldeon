@@ -1,0 +1,129 @@
+@import url('https://fonts.cdnfonts.com/css/sst');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sst, sans-serif;
+}
+
+.cabecera-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cabecera-principal .logo img {
+    height: 20px;
+}
+
+.iconos {
+    display: flex;
+}
+
+.iconos .icono {
+    width: 30px;
+    margin-left: -20px;
+}
+
+.boton-header {
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    margin-right: 15px;
+}
+
+.boton-header li {
+    font-size: 15px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    
+}
+
+.boton-header button {
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    flex-direction: row;
+    font-family: sst, sans-serif;
+    margin-right: 20px;
+}
+
+.menu-gris li a:hover {
+    color: black;
+}
+
+.menu-gris {
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+.menu-gris ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-gris ul li {
+    list-style: none;
+}
+
+.menu-gris ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.banner {
+    background-image: url(bannerm.jpg);
+    height: 380px;
+}
+
+.banner button{
+    flex: auto;
+    color: #5787f4;
+}
+
+.bancos {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+}
